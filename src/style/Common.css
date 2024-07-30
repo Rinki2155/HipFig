@@ -1,0 +1,13 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+.menu-item{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(3, 82, 168);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}

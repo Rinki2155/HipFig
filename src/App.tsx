@@ -1,7 +1,6 @@
-import { Api } from "./ComponentPages/Api";
-import "./App.css";
-import Header from './ComponentPages/Header'
-import Home from "./ComponentPages/Home";
+import { Api } from "./common/Api";
+import "./style/Common.css"
+import Home from "./common/Home";
 import HipFig from "./May/HipFig";
 import CheckItenery from "./Components/CheckItenery";
 import Count from "./Components/Count";
@@ -12,12 +11,13 @@ import Itineraries from "./Components/Itineraries";
 import Login from "./Components/Login";
 import Post from "./Components/Post";
 import Variable from "./Components/Variable";
+import Navbar from "./common/Navbar";
 
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App(){
     return (
       <>
-        <h1 style={{height:"100px", marginTop:"-1%"}}><Header /></h1>
+        <Navbar/>
         <Home />
         <HipFig />
         <CheckItenery/>
